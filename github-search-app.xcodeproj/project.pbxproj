@@ -15,6 +15,7 @@
 		B86877A92BDB4521009E7BBB /* github_search_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86877A82BDB4521009E7BBB /* github_search_appTests.swift */; };
 		B86877B32BDB4521009E7BBB /* github_search_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86877B22BDB4521009E7BBB /* github_search_appUITests.swift */; };
 		B86877B52BDB4521009E7BBB /* github_search_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86877B42BDB4521009E7BBB /* github_search_appUITestsLaunchTests.swift */; };
+		B86877C32BDB5DBE009E7BBB /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86877C22BDB5DBE009E7BBB /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B86877AE2BDB4521009E7BBB /* github-search-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "github-search-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86877B22BDB4521009E7BBB /* github_search_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = github_search_appUITests.swift; sourceTree = "<group>"; };
 		B86877B42BDB4521009E7BBB /* github_search_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = github_search_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B86877C22BDB5DBE009E7BBB /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		B86877902BDB4517009E7BBB /* github-search-app */ = {
 			isa = PBXGroup;
 			children = (
+				B86877C12BDB5C8C009E7BBB /* API */,
 				B86877912BDB4517009E7BBB /* AppDelegate.swift */,
 				B86877932BDB4517009E7BBB /* SceneDelegate.swift */,
 				B86877952BDB4517009E7BBB /* ViewController.swift */,
@@ -122,6 +125,14 @@
 				B86877B42BDB4521009E7BBB /* github_search_appUITestsLaunchTests.swift */,
 			);
 			path = "github-search-appUITests";
+			sourceTree = "<group>";
+		};
+		B86877C12BDB5C8C009E7BBB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B86877C22BDB5DBE009E7BBB /* APIClient.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 				B86877962BDB4517009E7BBB /* ViewController.swift in Sources */,
 				B86877922BDB4517009E7BBB /* AppDelegate.swift in Sources */,
 				B86877942BDB4517009E7BBB /* SceneDelegate.swift in Sources */,
+				B86877C32BDB5DBE009E7BBB /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
